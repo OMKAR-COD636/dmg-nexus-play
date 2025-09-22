@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Flame, Mountain, Waves } from "lucide-react"
+import { Flame, Mountain, Waves, Shield, Zap, Wind } from "lucide-react"
 import heroImage from "@/assets/hero-disaster-collage.jpg"
 
 const Index = () => {
@@ -25,7 +25,14 @@ const Index = () => {
   ]
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 relative">
+      {/* Floating Logos */}
+      <Flame className="floating-logo floating-logo-1 w-12 h-12 text-primary" />
+      <Mountain className="floating-logo floating-logo-2 w-10 h-10 text-accent" />
+      <Waves className="floating-logo floating-logo-3 w-14 h-14 text-emergency-water" />
+      <Shield className="floating-logo floating-logo-4 w-11 h-11 text-primary" />
+      <Zap className="floating-logo floating-logo-5 w-9 h-9 text-emergency-warning" />
+      <Wind className="floating-logo floating-logo-6 w-13 h-13 text-accent" />
       {/* Hero Section */}
       <div 
         className="relative h-96 rounded-2xl overflow-hidden bg-gradient-to-r from-background to-card"
