@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "emergency-fire": "hsl(var(--emergency-fire))",
+        "emergency-water": "hsl(var(--emergency-water))", 
+        "emergency-earth": "hsl(var(--emergency-earth))",
+        "emergency-warning": "hsl(var(--emergency-warning))",
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-emergency": "var(--gradient-emergency)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "emergency": "var(--shadow-emergency)",
+        "card": "var(--shadow-card)",
       },
       borderRadius: {
         lg: "var(--radius)",
